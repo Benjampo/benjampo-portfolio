@@ -9,12 +9,12 @@
             </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/work">
+            <NuxtLink to="/about">
               about
             </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/work">
+            <NuxtLink to="/contact">
               contact
             </NuxtLink>
           </li>

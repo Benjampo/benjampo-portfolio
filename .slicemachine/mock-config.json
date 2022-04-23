@@ -1,6 +1,8 @@
 {
   "_cts": {
-    "hompage": {},
+    "hompage": {
+      "projects": {}
+    },
     "project": {}
   }
 }

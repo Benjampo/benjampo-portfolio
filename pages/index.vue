@@ -7,8 +7,10 @@
     </section>
     <section class="projects">
       <ul>
-        <li>
-          product
+        <li v-for="project in projects.results" :key="project.uid">
+          <span> {{ project.data.title }} </span>
+          <PrismicImage :field="project.data.image" />
+
         </li>
       </ul>
     </section>
@@ -29,12 +31,17 @@ export default {
   name: 'IndexMain',
   data () {
     return {
-      document: {}
+      document: {},
+      projects: {}
     }
   },
   async fetch () {
     this.document = await this.$prismic.api.getSingle('hompage')
+    this.projects = await this.$prismic.api.query(
+      this.$prismic.predicates.at('document.type', 'project')
+    )
     console.log(this.document)
+    console.log(this.projects.results)
   }
 }
 </script>
