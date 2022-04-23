@@ -1,5 +1,6 @@
 <template>
-  <div class="navigation">
+  <Header>
+    <ColorModePicker />
     <div class="wrapper">
       <nav>
         <ul>
@@ -21,8 +22,13 @@
         </ul>
       </nav>
     </div>
-  </div>
+  </Header>
 </template>
 <script>
-
+import ColorModePicker from '@/components/ColorModePicker'
+export default {
+  components: {
+    ColorModePicker
+  }
+}
 </script>

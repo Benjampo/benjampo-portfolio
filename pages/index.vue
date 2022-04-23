@@ -1,5 +1,6 @@
 <template>
   <div>
+    <ColorModePicker />
     <section class="headline">
       <span>{{ document.data.headline }}</span>
       <h1>{{ document.data.pageTitle }}</h1>

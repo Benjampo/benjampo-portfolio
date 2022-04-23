@@ -1,7 +1,6 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'benjampo-portfolio',
@@ -37,6 +36,7 @@ export default {
     '@nuxtjs/eslint-module',
     '@nuxtjs/prismic',
     '@nuxtjs/color-mode'
+
   ],
   prismic: {
     endpoint: 'https://benjampo-portfolio.prismic.io/api/v2',
@@ -46,6 +46,7 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
