@@ -1,0 +1,54 @@
+{
+  "id": "hompage",
+  "label": "Homepage",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "headline": {
+        "type": "Text",
+        "config": {
+          "label": "Headline",
+          "placeholder": ""
+        }
+      },
+      "pageTitle": {
+        "type": "Text",
+        "config": {
+          "label": "Page Title",
+          "placeholder": ""
+        }
+      },
+      "Subline": {
+        "type": "Text",
+        "config": {
+          "label": "Subline",
+          "placeholder": ""
+        }
+      },
+      "trustTitle": {
+        "type": "Text",
+        "config": {
+          "label": "Trust Title",
+          "placeholder": ""
+        }
+      },
+      "partners": {
+        "type": "Group",
+        "config": {
+          "label": "Partners",
+          "fields": {
+            "image": {
+              "type": "Image",
+              "config": {
+                "label": "Image",
+                "constraint": {},
+                "thumbnails": []
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

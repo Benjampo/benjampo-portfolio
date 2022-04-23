@@ -1,0 +1,46 @@
+{
+  "id": "cfb2ffdd-6d83-4b90-ba9c-71266e9154be",
+  "uid": "ipsam-et-veritatis",
+  "type": "hompage",
+  "data": {
+    "headline": "embrace innovative infomediaries",
+    "pageTitle": "expedite B2B deliverables",
+    "Subline": "productize robust e-commerce",
+    "trustTitle": "visualize magnetic action-items",
+    "partners": [
+      {
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1493119508027-2b584f234d6c?w=900&h=500&fit=crop"
+        }
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1589652717521-10c0d092dea9?w=900&h=500&fit=crop"
+        }
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1504198070170-4ca53bb1c1fa?w=900&h=500&fit=crop"
+        }
+      }
+    ]
+  }
+}
