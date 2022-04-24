@@ -1,1 +1,14 @@
+@import "./base/base";
+@import "./base/reset";
+
+@import "./utils/fonts";
+@import "./utils/mixins";
+@import "./utils/vars";
+
+
+@import "./components/MainHeader";
+@import "./components/MainFooter";
+
+@import "./pages/index";
+@import "./pages/contact";
 

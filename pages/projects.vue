@@ -11,16 +11,15 @@
 <script>
 export default {
   name: 'IndexMain',
-  data () {
-    return {
-      projects: {}
-    }
-  },
-  async fetch () {
-    this.projects = await this.$prismic.api.query(
-      this.$prismic.predicates.at('document.type', 'project')
+  async asyncData ({ $prismic, error }) {
+    const projects = await $prismic.api.query(
+      $prismic.predicates.at('document.type', 'project')
     )
-    console.log(this.projects)
+    if (projects) {
+      return { projects }
+    } else {
+      error({ statusCode: 404, message: 'Page not found' })
+    }
   }
 }
 </script>

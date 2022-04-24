@@ -1,26 +1,35 @@
 <template>
   <Header>
-    <ColorModePicker />
     <div class="wrapper">
-      <nav>
+      <ColorModePicker />
+      <div class="navigation">
+        <NuxtLink to="/">
+          <img src="./../static/3d_assets/chat.png" alt="">
+        </NuxtLink>
+        <nav>
+          <ul>
+            <li>
+              <NuxtLink to="/projects">
+                work
+              </NuxtLink>
+            </li>
+            <li>
+              <NuxtLink to="/about">
+                about
+              </NuxtLink>
+            </li>
+            <li>
+              <NuxtLink to="/contact">
+                contact
+              </NuxtLink>
+            </li>
+          </ul>
+        </nav>
         <ul>
-          <li>
-            <NuxtLink to="/projects">
-              work
-            </NuxtLink>
-          </li>
-          <li>
-            <NuxtLink to="/about">
-              about
-            </NuxtLink>
-          </li>
-          <li>
-            <NuxtLink to="/contact">
-              contact
-            </NuxtLink>
-          </li>
+          <li>French</li>
+          <li>English</li>
         </ul>
-      </nav>
+      </div>
     </div>
   </Header>
 </template>

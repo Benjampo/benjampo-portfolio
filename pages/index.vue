@@ -34,11 +34,17 @@ export default {
       projects: {}
     }
   },
-  async fetch () {
-    this.document = await this.$prismic.api.getSingle('hompage')
-    this.projects = await this.$prismic.api.query(
-      this.$prismic.predicates.at('document.type', 'project')
+  async asyncData ({ $prismic, error }) {
+    const document = await $prismic.api.getSingle('hompage')
+    const projects = await $prismic.api.query(
+      $prismic.predicates.at('document.type', 'project')
     )
+    if (projects && document) {
+      return { projects, document }
+    } else {
+      error({ statusCode: 404, message: 'Page not found' })
+    }
   }
+
 }
 </script>

@@ -1,1 +1,5 @@
-
+@import "vars";
+%wrapper {
+  display: block;
+  margin: $gutter-h $gutter-w;
+}

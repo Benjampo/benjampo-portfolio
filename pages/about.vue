@@ -20,13 +20,13 @@
 <script>
 export default {
   name: 'AboutPage',
-  data () {
-    return {
-      document: {}
+  async asyncData ({ $prismic, error }) {
+    const document = await $prismic.api.getSingle('about')
+    if (document) {
+      return { document }
+    } else {
+      error({ statusCode: 404, message: 'Page not found' })
     }
-  },
-  async fetch () {
-    this.document = await this.$prismic.api.getSingle('about')
   }
 }
 </script>
