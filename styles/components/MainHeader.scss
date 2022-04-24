@@ -18,6 +18,9 @@
 
       li {
         margin: 0 calc($gutter-w / 2);
+        a {
+          @extend %navigation__label;
+        }
       }
     }
   }

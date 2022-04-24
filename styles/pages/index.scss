@@ -1,1 +1,8 @@
-
+.headline {
+  h1 {
+    @extend %title;
+  }
+  span {
+    @extend %title--headline;
+  }
+}
