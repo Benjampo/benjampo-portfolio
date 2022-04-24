@@ -1,10 +1,6 @@
-<component>
-  <div>
-  <h1>work</h1>
-  </div>
-</component>
+<template>
+  <h1>test</h1>
+</template>
 <script>
-export default {
-  name: 'WorkPage'
-}
+
 </script>

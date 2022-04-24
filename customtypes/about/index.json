@@ -1,0 +1,76 @@
+{
+  "id": "about",
+  "label": "about",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "title": {
+        "type": "Text",
+        "config": {
+          "label": "Title",
+          "placeholder": ""
+        }
+      },
+      "description": {
+        "type": "Text",
+        "config": {
+          "label": "Description",
+          "placeholder": ""
+        }
+      },
+      "techtitle": {
+        "type": "Text",
+        "config": {
+          "label": "Tech Stack Title",
+          "placeholder": ""
+        }
+      },
+      "techstack": {
+        "type": "Group",
+        "config": {
+          "label": "Tech Stack",
+          "fields": {
+            "tech": {
+              "type": "Text",
+              "config": {
+                "label": "Tech",
+                "placeholder": ""
+              }
+            }
+          }
+        }
+      },
+      "toolstitle": {
+        "type": "Text",
+        "config": {
+          "label": "Tools Title",
+          "placeholder": ""
+        }
+      },
+      "tools": {
+        "type": "Group",
+        "config": {
+          "label": "Tools",
+          "fields": {
+            "tool": {
+              "type": "Text",
+              "config": {
+                "label": "Tool",
+                "placeholder": ""
+              }
+            }
+          }
+        }
+      },
+      "resume": {
+        "type": "Link",
+        "config": {
+          "label": "Resume",
+          "placeholder": "",
+          "select": "media"
+        }
+      }
+    }
+  }
+}

@@ -1,6 +1,5 @@
 <template>
   <div>
-    <ColorModePicker />
     <section class="headline">
       <span>{{ document.data.headline }}</span>
       <h1>{{ document.data.pageTitle }}</h1>
@@ -11,7 +10,6 @@
         <li v-for="project in projects.results" :key="project.uid">
           <span> {{ project.data.title }} </span>
           <PrismicImage :field="project.data.image" />
-
         </li>
       </ul>
     </section>
@@ -41,8 +39,6 @@ export default {
     this.projects = await this.$prismic.api.query(
       this.$prismic.predicates.at('document.type', 'project')
     )
-    console.log(this.document)
-    console.log(this.projects.results)
   }
 }
 </script>
