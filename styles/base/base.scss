@@ -6,6 +6,7 @@
   --bg-secondary: #fff;
   --border-color: #ddd;
   --filter-icon: invert(100%);
+  --filter-partners: invert(0%);
 }
 
 .dark-mode {
@@ -16,6 +17,7 @@
   --bg-secondary: #071521;
   --border-color: #0d2538;
   --filter-icon: invert(0%);
+  --filter-partners: invert(100%);
 }
 * {
   -webkit-box-sizing: border-box;
@@ -41,5 +43,7 @@ a {
 }
 img {
   width: 100%;
-  filter: var(--filter-icon)	 ;
+}
+.icon {
+  filter: var(--filter-icon);
 }

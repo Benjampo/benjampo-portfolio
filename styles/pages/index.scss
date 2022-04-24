@@ -1,6 +1,6 @@
 .headline {
   display: block;
-  height: 100vh;
+  height: 80vh;
   .wrapper {
     display: block;
     position: relative;
@@ -40,5 +40,63 @@
     }
 
   }
+}
+.projects {
+  .wrapper {
+    width: 60%;
+    margin: auto;
+    ul {
+      li {
+        display: block;
+        margin-top: calc($gutter-h * 2);
+        &:nth-child(odd) {
+          text-align: right;
+        }
+        span {
+          display: block;
+          @extend %block__title;
+          margin-bottom: calc($gutter-h / 2);
+        }
+        img {
+        width: 100%;
+        }
+      }
+    }
+  }
+}
+.partners {
+  .wrapper {
+    display: block;
+    width: 60%;
+    margin: auto;
+    margin-top: calc($gutter-h * 2);
+    > img {
+      width: 5vw;
+      position: relative;
+      object-fit: contain;
+      display: block;
+      margin: auto;
+    }
+    h2 {
+      @extend %section--title;
+      text-align: center;
+      margin-top: calc($gutter-h / 2);
+    }
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin-top: calc($gutter-h);
+      li {
+        display: flex;
+        justify-content: center;
+        img {
+          width: 50%;
+          filter: var(--filter-partners);
+          opacity: .5;
+        }
+      }
+    }
 
+  }
 }

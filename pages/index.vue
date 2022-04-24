@@ -3,9 +3,9 @@
     <section class="headline">
       <div class="wrapper">
         <div class="headline__icons">
-          <img src="./../static/3d_assets/megaphone.png" alt="megaphone">
-          <img src="./../static/3d_assets/light.png" alt="ampoule">
-          <img src="./../static/3d_assets/coffee.png" alt="coffee">
+          <img class="icon" src="./../static/3d_assets/megaphone.png" alt="megaphone">
+          <img class="icon" src="./../static/3d_assets/light.png" alt="ampoule">
+          <img class="icon" src="./../static/3d_assets/coffee.png" alt="coffee">
         </div>
         <div class="headline__content">
           <span>{{ document.data.headline }}</span>
@@ -15,21 +15,26 @@
       </div>
     </section>
     <section class="projects">
-      <ul>
-        <li v-for="project in projects.results" :key="project.uid">
-          <span> {{ project.data.title }} </span>
-          <PrismicImage :field="project.data.image" />
-        </li>
-      </ul>
-    </section>
-    <section class="partners">
-      <h2> {{ document.data.trustTitle }} </h2>
-      <div class="partners__container">
+      <div class="wrapper">
         <ul>
-          <li v-for="partner in document.data.partners" :key="partner.id">
-            <PrismicImage :field="partner.image" />
+          <li v-for="project in projects.results" :key="project.uid">
+            <span> {{ project.data.title }} </span>
+            <PrismicImage :field="project.data.image" />
           </li>
         </ul>
+      </div>
+    </section>
+    <section class="partners">
+      <div class="wrapper">
+        <img class="icon" src="./../static/3d_assets/heart.png" alt="heart">
+        <h2> {{ document.data.trustTitle }} </h2>
+        <div class="partners__container">
+          <ul>
+            <li v-for="partner in document.data.partners" :key="partner.id">
+              <PrismicImage :field="partner.image" />
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
   </main>
