@@ -1,9 +1,18 @@
 <template>
-  <div>
+  <main>
     <section class="headline">
-      <span>{{ document.data.headline }}</span>
-      <h1>{{ document.data.pageTitle }}</h1>
-      <span>{{ document.data.Subline }}</span>
+      <div class="wrapper">
+        <div class="headline__icons">
+          <img src="./../static/3d_assets/megaphone.png" alt="megaphone">
+          <img src="./../static/3d_assets/light.png" alt="ampoule">
+          <img src="./../static/3d_assets/coffee.png" alt="coffee">
+        </div>
+        <div class="headline__content">
+          <span>{{ document.data.headline }}</span>
+          <h1>{{ document.data.pageTitle }}</h1>
+          <span>{{ document.data.Subline }}</span>
+        </div>
+      </div>
     </section>
     <section class="projects">
       <ul>
@@ -23,15 +32,17 @@
         </ul>
       </div>
     </section>
-  </div>
+  </main>
 </template>
 <script>
+
 export default {
   name: 'IndexMain',
   data () {
     return {
-      document: {},
-      projects: {}
+      rellax: {
+        speed: 3
+      }
     }
   },
   async asyncData ({ $prismic, error }) {

@@ -1,8 +1,44 @@
 .headline {
-  h1 {
-    @extend %title;
+  display: block;
+  height: 100vh;
+  .wrapper {
+    display: block;
+    position: relative;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    margin-top: 30vh;
+    .headline__icons {
+      position: absolute;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      top: -20vh;
+      img {
+        width: 5vw;
+        position: relative;
+        object-fit: contain;
+        &:nth-child(1) {
+          bottom-top: -45vh;
+        }
+        &:nth-child(2) {
+          margin-bottom: 15vh;
+        }
+        &:nth-child(3) {
+          margin-bottom: -45vh;
+        }
+      }
+    }
+    .headline__content {
+      position: relative;
+      h1 {
+        @extend %title;
+      }
+      span {
+        @extend %title--headline;
+      }
+    }
+
   }
-  span {
-    @extend %title--headline;
-  }
+
 }

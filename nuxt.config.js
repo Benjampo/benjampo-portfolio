@@ -4,6 +4,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'benjampo-portfolio',
+    description: 'Je suis Benjamin Porchet, développeur Front-end basé en Suisse. Je développe des sites et applications webs pour mes clients',
     htmlAttrs: {
       lang: 'en'
     },
@@ -14,7 +15,8 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { crossorigin: 'anonymous', src: 'https://polyfill.io/v3/polyfill.min.js?features=WeakMap' }
     ]
   },
 
@@ -25,6 +27,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    { src: '~~/node_modules/vue-rellax/lib/nuxt-plugin', ssr: false }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components

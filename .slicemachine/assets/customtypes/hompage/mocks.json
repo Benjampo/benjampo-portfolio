@@ -1,17 +1,17 @@
 {
-  "id": "24e58d69-f1c3-4993-bc85-a35e52ee56dd",
-  "uid": "eligendi-consequatur-eos",
+  "id": "3aae154c-8ba3-4da7-9e5b-7f77d9ce13f1",
+  "uid": "expedita-dolorem-sed",
   "type": "hompage",
   "data": {
-    "headline": "streamline granular networks",
-    "pageTitle": "repurpose extensible users",
-    "Subline": "productize B2B markets",
-    "trustTitle": "productize cutting-edge initiatives",
+    "headline": "syndicate clicks-and-mortar methodologies",
+    "pageTitle": "leverage compelling applications",
+    "Subline": "extend end-to-end metrics",
+    "trustTitle": "enhance intuitive experiences",
     "projects": [
       {
         "project": {
           "link_type": "Web",
-          "url": "https://prismic.io"
+          "url": "http://google.com"
         }
       },
       {
@@ -23,25 +23,7 @@
       {
         "project": {
           "link_type": "Web",
-          "url": "http://google.com"
-        }
-      },
-      {
-        "project": {
-          "link_type": "Web",
-          "url": "http://twitter.com"
-        }
-      },
-      {
-        "project": {
-          "link_type": "Web",
           "url": "https://slicemachine.dev"
-        }
-      },
-      {
-        "project": {
-          "link_type": "Web",
-          "url": "http://google.com"
         }
       }
     ],
@@ -54,7 +36,7 @@
           },
           "alt": "Placeholder image",
           "copyright": null,
-          "url": "https://images.unsplash.com/photo-1607582278043-57198ac8da43?w=900&h=500&fit=crop"
+          "url": "https://images.unsplash.com/photo-1589321578146-4c1ba445cc88?w=900&h=500&fit=crop"
         }
       },
       {
@@ -65,7 +47,7 @@
           },
           "alt": "Placeholder image",
           "copyright": null,
-          "url": "https://images.unsplash.com/photo-1471897488648-5eae4ac6686b?w=900&h=500&fit=crop"
+          "url": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=900&h=500&fit=crop"
         }
       },
       {
@@ -76,7 +58,7 @@
           },
           "alt": "Placeholder image",
           "copyright": null,
-          "url": "https://images.unsplash.com/photo-1600804931749-2da4ce26c869?w=900&h=500&fit=crop"
+          "url": "https://images.unsplash.com/photo-1593642633279-1796119d5482?w=900&h=500&fit=crop"
         }
       },
       {
@@ -87,18 +69,7 @@
           },
           "alt": "Placeholder image",
           "copyright": null,
-          "url": "https://images.unsplash.com/photo-1560762484-813fc97650a0?w=900&h=500&fit=crop"
-        }
-      },
-      {
-        "image": {
-          "dimensions": {
-            "width": 900,
-            "height": 500
-          },
-          "alt": "Placeholder image",
-          "copyright": null,
-          "url": "https://images.unsplash.com/photo-1586952518485-11b180e92764?w=900&h=500&fit=crop"
+          "url": "https://images.unsplash.com/photo-1493119508027-2b584f234d6c?w=900&h=500&fit=crop"
         }
       }
     ]
