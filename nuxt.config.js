@@ -43,7 +43,6 @@ export default {
     modern: true
     /* see configuration for more */
   },
-
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
 

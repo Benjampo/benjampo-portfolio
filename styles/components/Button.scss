@@ -1,0 +1,12 @@
+.main__btn {
+  @extend %btn;
+  background: $color-white;
+  color: $color-black;
+}
+
+.main__btn__negative {
+  @extend %btn;
+  background: $color-black;
+  color: $color-white;
+
+}

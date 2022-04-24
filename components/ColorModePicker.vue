@@ -1,9 +1,12 @@
 <template>
   <div>
-    <select v-model="$colorMode.preference">
-      <option value="light">Light</option>
-      <option value="dark">Dark</option>
-    </select>
+    <ul>
+      <li
+        v-for="color of colors"
+        :key="color"
+        @click="$colorMode.preference = color"
+      ></li>
+    </ul>
   </div>
 </template>
 <script>
