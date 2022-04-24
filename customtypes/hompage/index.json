@@ -63,6 +63,14 @@
                 "constraint": {},
                 "thumbnails": []
               }
+            },
+            "website": {
+              "type": "Link",
+              "config": {
+                "label": "Website",
+                "placeholder": "",
+                "select": null
+              }
             }
           }
         }

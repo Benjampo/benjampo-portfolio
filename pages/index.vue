@@ -3,7 +3,7 @@
     <section class="headline">
       <div class="wrapper">
         <div class="headline__icons">
-          <img class="icon" src="./../static/3d_assets/megaphone.png" alt="megaphone">
+          <img v-rellax="{speed: -5}" class="icon" src="./../static/3d_assets/megaphone.png" alt="megaphone">
           <img class="icon" src="./../static/3d_assets/light.png" alt="ampoule">
           <img class="icon" src="./../static/3d_assets/coffee.png" alt="coffee">
         </div>
@@ -31,12 +31,15 @@
         <div class="partners__container">
           <ul>
             <li v-for="partner in document.data.partners" :key="partner.id">
-              <PrismicImage :field="partner.image" />
+              <PrismicLink target="_blank" :field="partner.website">
+                <PrismicImage :field="partner.image" />
+              </PrismicLink>
             </li>
           </ul>
         </div>
       </div>
     </section>
+    <NuxtLink to="/contact">Me contacter</NuxtLink>
   </main>
 </template>
 <script>
