@@ -4,8 +4,8 @@
       <div class="wrapper">
         <div class="headline__icons">
           <Icon pic="coffee" :rellax="{speed: -5}" />
-          <img class="icon" src="./../static/3d_assets/dark/light.svg" alt="ampoule">
-          <img class="icon" src="./../static/3d_assets/dark/coffee.svg" alt="coffee">
+          <Icon pic="light" :rellax="{speed: -5}" />
+          <Icon pic="coffee" :rellax="{speed: -5}" />
         </div>
         <div class="headline__content">
           <span>{{ document.data.headline }}</span>

@@ -1,5 +1,5 @@
 <template>
-  <img class="icon" :src="getImgUrl" alt="pic">
+  <img class="icon" :src="getImgUrl" :alt="icon">
 </template>
 <script>
 export default {
@@ -7,7 +7,7 @@ export default {
   props: ['pic'],
   data () {
     return {
-      color: 'light',
+      selected: 'light',
       rellax: {
         speed: 3
       }
@@ -15,7 +15,7 @@ export default {
   },
   computed: {
     getImgUrl () {
-      return require('./../static/3d_assets/' + this.color + '/' + this.pic + '.svg')
+      return require('./../static/3d_assets/' + this.selected + '/' + this.pic + '.svg')
     }
 
   }
