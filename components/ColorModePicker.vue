@@ -11,7 +11,7 @@
 </template>
 <script>
 export default {
-
+  props: ['selected'],
   data () {
     return {
       colors: ['light', 'dark']

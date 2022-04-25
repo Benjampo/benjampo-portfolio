@@ -40,7 +40,7 @@
   @extend %font;
   --minFontSize: 16px;
   --maxFontSize: 24px;
-  --scaler: 4vw;
+  --scaler: 3vw;
 
   font-weight: 500;
 }
@@ -73,4 +73,12 @@
   --scaler: 4vw;
 
   font-weight: 900;
+}
+%email__label{
+  @extend %font;
+  --minFontSize: 32px;
+  --maxFontSize: 96px;
+  --scaler: 6vw;
+
+  font-weight: 500;
 }

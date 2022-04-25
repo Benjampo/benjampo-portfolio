@@ -4,7 +4,7 @@
       <ColorModePicker />
       <div class="navigation">
         <NuxtLink to="/">
-          <img src="./../static/3d_assets/chat.png" alt="">
+          <img class="logo" src="./../static/logo.svg" alt="logo">
         </NuxtLink>
         <nav>
           <ul>

@@ -1,0 +1,38 @@
+{
+  "id": "contact",
+  "label": "contact",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "title": {
+        "type": "Text",
+        "config": {
+          "label": "Title",
+          "placeholder": ""
+        }
+      },
+      "headline": {
+        "type": "Text",
+        "config": {
+          "label": "Headline",
+          "placeholder": ""
+        }
+      },
+      "email": {
+        "type": "Text",
+        "config": {
+          "label": "Email",
+          "placeholder": ""
+        }
+      },
+      "copy": {
+        "type": "Text",
+        "config": {
+          "label": "Copy",
+          "placeholder": ""
+        }
+      }
+    }
+  }
+}

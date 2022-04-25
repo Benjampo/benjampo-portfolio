@@ -1,1 +1,31 @@
+.contact {
+  .wrapper {
+    text-align: center;
+    .contact__title {
+    padding-bottom: $gutter-h;
+      img {
+        margin-bottom: calc($gutter-h / 2);
+      }
+      h1 {
+        @extend %section--title;
+        margin-bottom: calc($gutter-h / 4);
+      }
+      p {
+        @extend %section--headline;
+        padding: 0 $gutter-w * 4;
+        opacity: .5;
+      }
+    }
+    .contact__info {
+      h2 {
+        @extend %email__label;
+        margin-bottom: calc($gutter-h / 4);
+      }
+      p {
+        @extend %section--headline;
+        opacity: .5;
+      }
+    }
+  }
+}
 

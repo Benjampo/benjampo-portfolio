@@ -1,0 +1,26 @@
+footer {
+  position: relative;
+  bottom: 0;
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .copyright {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      img {
+        margin: calc($gutter-h / 4) calc($gutter-w / 4);
+      }
+    }
+    a {
+    @extend %content;
+    }
+    span {
+      @extend %content;
+    }
+  }
+
+}

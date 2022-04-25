@@ -1,16 +1,12 @@
 .wrapper {
   @extend %wrapper;
-
-
   .navigation {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
   }
-  img {
-    width: 50px;
-  }
+
   nav {
     ul {
       display: flex;

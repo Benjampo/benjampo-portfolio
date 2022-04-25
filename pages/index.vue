@@ -3,9 +3,9 @@
     <section class="headline">
       <div class="wrapper">
         <div class="headline__icons">
-          <img v-rellax="{speed: -5}" class="icon" src="./../static/3d_assets/megaphone.png" alt="megaphone">
-          <img class="icon" src="./../static/3d_assets/light.png" alt="ampoule">
-          <img class="icon" src="./../static/3d_assets/coffee.png" alt="coffee">
+          <Icon pic="coffee" :rellax="{speed: -5}" />
+          <img class="icon" src="./../static/3d_assets/dark/light.svg" alt="ampoule">
+          <img class="icon" src="./../static/3d_assets/dark/coffee.svg" alt="coffee">
         </div>
         <div class="headline__content">
           <span>{{ document.data.headline }}</span>
@@ -26,7 +26,7 @@
     </section>
     <section class="partners">
       <div class="wrapper">
-        <img class="icon" src="./../static/3d_assets/heart.png" alt="heart">
+        <img class="icon" src="./../static/3d_assets/dark/pin.svg" alt="heart">
         <h2> {{ document.data.trustTitle }} </h2>
         <div class="partners__container">
           <ul>
@@ -43,16 +43,12 @@
   </main>
 </template>
 <script>
+import Icon from '@/components/Icon'
 
 export default {
   name: 'IndexMain',
-  data () {
-    return {
-      rellax: {
-        speed: 3
-      }
-    }
-  },
+  components: { Icon },
+
   async asyncData ({ $prismic, error }) {
     const document = await $prismic.api.getSingle('hompage')
     const projects = await $prismic.api.query(
