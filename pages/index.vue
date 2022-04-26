@@ -5,7 +5,7 @@
         <div class="headline__icons">
           <Icon pic="coffee" :rellax="{speed: -5}" />
           <Icon pic="light" :rellax="{speed: -5}" />
-          <Icon pic="coffee" :rellax="{speed: -5}" />
+          <Icon pic="megaphone" :rellax="{speed: -5}" />
         </div>
         <div class="headline__content">
           <span>{{ document.data.headline }}</span>
@@ -26,7 +26,7 @@
     </section>
     <section class="partners">
       <div class="wrapper">
-        <img class="icon" src="./../static/3d_assets/dark/pin.svg" alt="heart">
+        <Icon pic="pin" :rellax="{speed: -5}" />
         <h2> {{ document.data.trustTitle }} </h2>
         <div class="partners__container">
           <ul>

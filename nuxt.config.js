@@ -46,6 +46,16 @@ export default {
     modern: true
     /* see configuration for more */
   },
+  colorMode: {
+    preference: 'dark',
+    fallback: 'dark',
+    hid: 'nuxt-color-mode-script',
+    globalName: '__NUXT_COLOR_MODE__',
+    componentName: 'ColorScheme',
+    classPrefix: '',
+    classSuffix: '-mode',
+    storageKey: 'nuxt-color-mode'
+  },
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
 

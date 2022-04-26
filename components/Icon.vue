@@ -7,7 +7,7 @@ export default {
   props: ['pic'],
   data () {
     return {
-      selected: 'light',
+      icon: '',
       rellax: {
         speed: 3
       }
@@ -15,7 +15,7 @@ export default {
   },
   computed: {
     getImgUrl () {
-      return require('./../static/3d_assets/' + this.selected + '/' + this.pic + '.svg')
+      return require('./../static/3d_assets/' + this.$colorMode.preference + '/' + this.pic + '.svg')
     }
 
   }

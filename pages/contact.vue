@@ -2,7 +2,7 @@
   <main class="contact">
     <div class="wrapper">
       <div class="contact__title">
-        <img class="icon" src="./../static/3d_assets/dark/chat.svg" alt="chat icon">
+        <Icon pic="chat" />
         <h1>{{ document.data.title }}</h1>
         <p>{{ document.data.headline }}</p>
       </div>
