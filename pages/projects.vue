@@ -2,8 +2,10 @@
   <div>
     <ul>
       <li v-for="project in projects.results" :key="project.uid">
-        <span> {{ project.data.title }} </span>
-        <PrismicImage :field="project.data.image" />
+        <NuxtLink :to="project.uid">
+          <span> {{ project.data.title }} </span>
+          <PrismicImage :field="project.data.image" />
+        </NuxtLink>
       </li>
     </ul>
   </div>

@@ -17,7 +17,6 @@ export default {
     getImgUrl () {
       return require('./../static/3d_assets/' + this.$colorMode.preference + '/' + this.pic + '.svg')
     }
-
   }
 }
 </script>

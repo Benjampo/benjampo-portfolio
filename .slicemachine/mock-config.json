@@ -3,7 +3,10 @@
     "hompage": {
       "projects": {}
     },
-    "project": {},
+    "project": {
+      "techstack": {},
+      "tasks": {}
+    },
     "footer": {},
     "about": {},
     "contact": {}

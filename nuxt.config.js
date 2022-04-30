@@ -38,7 +38,8 @@ export default {
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
     '@nuxtjs/prismic',
-    '@nuxtjs/color-mode'
+    '@nuxtjs/color-mode',
+    'nuxt-gsap-module'
 
   ],
   prismic: {

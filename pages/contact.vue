@@ -10,7 +10,6 @@
         <h2><a href="mailto:contact@benjampo.ch">{{ document.data.email }}</a></h2>
         <p>{{ document.data.copy }}</p>
       </div>
-
     </div>
   </main>
 </template>

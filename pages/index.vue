@@ -18,8 +18,10 @@
       <div class="wrapper">
         <ul>
           <li v-for="project in projects.results" :key="project.uid">
-            <span> {{ project.data.title }} </span>
-            <PrismicImage :field="project.data.image" />
+            <NuxtLink :to="project.uid">
+              <span> {{ project.data.title }} </span>
+              <PrismicImage :field="project.data.image" />
+            </NuxtLink>
           </li>
         </ul>
       </div>
@@ -59,6 +61,10 @@ export default {
     } else {
       error({ statusCode: 404, message: 'Page not found' })
     }
+  },
+  mounted () {
+    const gsap = this.$gsap
+    gsap.from('.icon', { scale: 0, stagger: 0.05, ease: 'power2.easeOut' })
   }
 
 }

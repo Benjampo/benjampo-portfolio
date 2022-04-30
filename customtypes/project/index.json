@@ -26,6 +26,21 @@
           "placeholder": ""
         }
       },
+      "partner": {
+        "type": "Text",
+        "config": {
+          "label": "Partner",
+          "placeholder": ""
+        }
+      },
+      "partnerlink": {
+        "type": "Link",
+        "config": {
+          "label": "Partner",
+          "placeholder": "",
+          "select": null
+        }
+      },
       "image": {
         "type": "Image",
         "config": {
@@ -63,23 +78,31 @@
           }
         }
       },
-      "tech-stack-title": {
+      "techstacktitle": {
         "type": "Text",
         "config": {
           "label": "Tech-Stack Title",
           "placeholder": ""
         }
       },
-      "tech-stack": {
+      "techstack": {
         "type": "Group",
         "config": {
           "label": "Tech Stack",
           "fields": {
-            "tech": {
+            "title": {
               "type": "Text",
               "config": {
-                "label": "Tech",
+                "label": "Title",
                 "placeholder": ""
+              }
+            },
+            "link": {
+              "type": "Link",
+              "config": {
+                "label": "Link",
+                "placeholder": "",
+                "select": null
               }
             }
           }

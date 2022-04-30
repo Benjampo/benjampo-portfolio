@@ -1,10 +1,15 @@
 {
-  "id": "df39893d-065e-4350-bfc3-1dd84ea24817",
-  "uid": "ab-totam-reprehenderit",
+  "id": "b4c2c312-94ec-4145-90cf-c66cce1eb27a",
+  "uid": "necessitatibus-fuga-ex",
   "type": "project",
   "data": {
-    "title": "maximize efficient e-business",
-    "headline": "engage distributed metrics",
+    "title": "innovate dynamic metrics",
+    "headline": "redefine frictionless solutions",
+    "partner": "facilitate magnetic methodologies",
+    "partnerlink": {
+      "link_type": "Web",
+      "url": "http://twitter.com"
+    },
     "image": {
       "dimensions": {
         "width": 900,
@@ -12,50 +17,52 @@
       },
       "alt": "Placeholder image",
       "copyright": null,
-      "url": "https://images.unsplash.com/photo-1560457079-9a6532ccb118?w=900&h=500&fit=crop"
+      "url": "https://images.unsplash.com/photo-1600861194802-a2b11076bc51?w=900&h=500&fit=crop"
     },
-    "description": "engage virtual infrastructures",
-    "tasks-title": "transform mission-critical systems",
-    "tech-stack-title": "engage next-generation markets",
+    "description": "morph out-of-the-box action-items",
+    "tasks-title": "scale visionary communities",
+    "techstacktitle": "evolve next-generation channels",
     "link": {
       "link_type": "Web",
-      "url": "https://slicemachine.dev"
+      "url": "http://google.com"
     },
     "tasks": [
       {
-        "task": "matrix value-added initiatives"
+        "task": "exploit innovative mindshare"
       },
       {
-        "task": "e-enable impactful technologies"
+        "task": "engage compelling convergence"
       },
       {
-        "task": "utilize open-source experiences"
+        "task": "enhance back-end experiences"
       },
       {
-        "task": "monetize 24/365 web-readiness"
+        "task": "recontextualize clicks-and-mortar solutions"
       },
       {
-        "task": "transition e-business systems"
+        "task": "deliver mission-critical interfaces"
+      },
+      {
+        "task": "extend vertical markets"
+      },
+      {
+        "task": "revolutionize extensible relationships"
       }
     ],
-    "tech-stack": [
+    "techstack": [
       {
-        "tech": "exploit sexy action-items"
+        "title": "benchmark killer functionalities",
+        "link": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        }
       },
       {
-        "tech": "orchestrate cross-media niches"
-      },
-      {
-        "tech": "innovate open-source supply-chains"
-      },
-      {
-        "tech": "exploit revolutionary solutions"
-      },
-      {
-        "tech": "morph viral methodologies"
-      },
-      {
-        "tech": "evolve clicks-and-mortar solutions"
+        "title": "deliver 24/365 synergies",
+        "link": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        }
       }
     ]
   }
