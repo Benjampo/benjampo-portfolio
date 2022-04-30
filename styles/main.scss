@@ -9,8 +9,12 @@
 
 @import "./components/MainHeader";
 @import "./components/MainFooter";
+@import "./components/ColorModePicker";
 
 @import "./pages/index";
 @import "./pages/contact";
 @import "./pages/project";
 
+main {
+  padding-bottom: $gutter-h;
+}

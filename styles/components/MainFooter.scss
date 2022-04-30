@@ -1,6 +1,7 @@
 footer {
-  position: relative;
+  position: absolute;
   bottom: 0;
+  height: $gutter-h;
   width: 100%;
   .wrapper {
     .informations {
