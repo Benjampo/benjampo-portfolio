@@ -38,9 +38,9 @@ export default {
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
     '@nuxtjs/prismic',
+    '@nuxtjs/svg',
     '@nuxtjs/color-mode',
     'nuxt-gsap-module'
-
   ],
   prismic: {
     endpoint: 'https://benjampo-portfolio.prismic.io/api/v2',

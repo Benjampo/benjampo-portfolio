@@ -55,4 +55,6 @@ img {
   width: 2vw;
   filter: var(--filter-icon);
 }
-
+.wrapper {
+  @extend %wrapper;
+}

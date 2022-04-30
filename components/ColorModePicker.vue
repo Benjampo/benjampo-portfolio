@@ -1,18 +1,19 @@
 <template>
   <div>
-    <ul>
-      <li
-        :is="color"
-        v-for="color of colors"
-        :key="color"
-        @click="$colorMode.preference = color"
-      >c</li>
-    </ul>
+    <input v-model="$colorMode.preference" name="color" value="dark" type="radio">
+    <input v-model="$colorMode.preference" name="color" value="light" type="radio">
+    <component :is="`icon-${$colorMode.preference}`" />
   </div>
 </template>
 <script>
+import IconLight from 'static/icons/light.svg?inline'
+import IconDark from 'static/icons/dark.svg?inline'
 
 export default {
+  components: {
+    IconLight,
+    IconDark
+  },
   props: ['selected'],
   data () {
     return {
@@ -33,3 +34,26 @@ export default {
   }
 }
 </script>
+<style scoped>
+.feather {
+  position: relative;
+  top: 0px;
+  cursor: pointer;
+  padding: 7px;
+  background-color: var(--bg-secondary);
+  border: 2px solid var(--border-color);
+  margin: 0;
+  border-radius: 5px;
+  transition: all 0.1s ease;
+}
+.feather:hover {
+  top: -3px;
+}
+.feather.preferred {
+  border-color: var(--color-primary);
+  top: -3px;
+}
+.feather.selected {
+  color: var(--color-primary);
+}
+</style>

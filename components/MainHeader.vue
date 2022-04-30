@@ -1,11 +1,11 @@
 <template>
   <Header>
     <div class="wrapper">
-      <ColorModePicker />
       <div class="navigation">
         <NuxtLink to="/">
           <img class="logo" src="./../static/logo.svg" alt="logo">
         </NuxtLink>
+        <ColorModePicker />
         <nav>
           <ul>
             <li>
