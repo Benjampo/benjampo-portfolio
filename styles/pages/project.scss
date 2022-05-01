@@ -1,5 +1,6 @@
 .project {
   .wrapper {
+    @extend %wrapper;
     .back {
       @extend %content;
       opacity: .5;

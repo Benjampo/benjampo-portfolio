@@ -54,9 +54,6 @@ img {
   width: 2vw;
   filter: var(--filter-icon);
 }
-.wrapper {
-  @extend %wrapper;
-}
 .button__container {
   width: 100%;
   padding: 10px 15px;

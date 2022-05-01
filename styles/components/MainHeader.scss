@@ -1,5 +1,6 @@
 header {
   .wrapper {
+    @extend %wrapper;
     .navigation {
       display: flex;
       flex-direction: row;

@@ -4,6 +4,7 @@ footer {
   height: $gutter-h;
   width: 100%;
   .wrapper {
+    @extend %wrapper;
     .informations {
       display: flex;
       flex-direction: row;
