@@ -1,12 +1,11 @@
-export default function (doc) {
-  if (doc.type === 'homepage') {
-    return `/${doc.lang}`
+export default function (document) {
+  if (document.type === 'hompage') {
+    return `/${document.lang}`
   }
 
-  if (doc.type === 'project') {
-    return `/${doc.lang}/${doc.uid}`
+  if (document.type === 'project') {
+    return `/${document.lang}/${document.uid}`
   }
 
   return '/not-found'
 }
-

@@ -31,11 +31,19 @@
         "config": {
           "label": "Tech Stack",
           "fields": {
-            "tech": {
+            "title": {
               "type": "Text",
               "config": {
-                "label": "Tech",
+                "label": "title",
                 "placeholder": ""
+              }
+            },
+            "link": {
+              "type": "Link",
+              "config": {
+                "label": "Link",
+                "placeholder": "",
+                "select": null
               }
             }
           }
@@ -54,16 +62,32 @@
           "label": "Tools",
           "fields": {
             "tool": {
-              "type": "Text",
+              "type": "Image",
               "config": {
                 "label": "Tool",
-                "placeholder": ""
+                "constraint": {},
+                "thumbnails": []
+              }
+            },
+            "link": {
+              "type": "Link",
+              "config": {
+                "label": "Link",
+                "placeholder": "",
+                "select": null
               }
             }
           }
         }
       },
-      "resume": {
+      "resumetitle": {
+        "type": "Text",
+        "config": {
+          "label": "Resumetitle",
+          "placeholder": ""
+        }
+      },
+      "resumelink": {
         "type": "Link",
         "config": {
           "label": "Resume",

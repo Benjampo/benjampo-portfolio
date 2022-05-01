@@ -1,45 +1,99 @@
 {
-  "id": "e360d062-413e-4dbc-9378-4a5c17c39634",
-  "uid": "expedita-rerum-neque",
+  "id": "5ae72b52-fb01-40f1-bf77-e8ff60755617",
+  "uid": "veritatis-cupiditate-facilis",
   "type": "about",
   "data": {
-    "title": "utilize e-business bandwidth",
-    "description": "integrate synergistic experiences",
-    "techtitle": "synergize seamless bandwidth",
-    "toolstitle": "strategize magnetic schemas",
-    "resume": {
+    "title": "brand visionary functionalities",
+    "description": "architect value-added content",
+    "techtitle": "revolutionize out-of-the-box applications",
+    "toolstitle": "seize collaborative web services",
+    "resumetitle": "synthesize web-enabled web services",
+    "resumelink": {
       "link_type": "media",
       "url": "https://source.unsplash.com/daily"
     },
     "techstack": [
       {
-        "tech": "streamline wireless partnerships"
+        "title": "enhance killer blockchains",
+        "link": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        }
       },
       {
-        "tech": "engineer strategic ROI"
+        "title": "deploy robust deliverables",
+        "link": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        }
       },
       {
-        "tech": "innovate customized portals"
+        "title": "e-enable distributed models",
+        "link": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        }
       },
       {
-        "tech": "seize intuitive interfaces"
+        "title": "synthesize best-of-breed platforms",
+        "link": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        }
       },
       {
-        "tech": "drive distributed e-services"
-      },
-      {
-        "tech": "optimize cutting-edge vortals"
-      },
-      {
-        "tech": "iterate ubiquitous synergies"
+        "title": "harness out-of-the-box architectures",
+        "link": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        }
       }
     ],
     "tools": [
       {
-        "tool": "engineer wireless synergies"
+        "tool": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1547082299-de196ea013d6?w=900&h=500&fit=crop"
+        },
+        "link": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        }
       },
       {
-        "tool": "synergize scalable models"
+        "tool": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1591012911207-0dbac31f37da?w=900&h=500&fit=crop"
+        },
+        "link": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        }
+      },
+      {
+        "tool": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1551739440-5dd934d3a94a?w=900&h=500&fit=crop"
+        },
+        "link": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        }
       }
     ]
   }

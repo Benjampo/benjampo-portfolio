@@ -37,7 +37,6 @@
   </main>
 </template>
 <script>
-
 export default {
   name: 'ProjectPage',
   async asyncData ({ $prismic, params, error }) {

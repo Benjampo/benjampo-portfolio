@@ -41,17 +41,18 @@
         </div>
       </div>
     </section>
-    <NuxtLink to="/contact">Me contacter</NuxtLink>
+    <div class="button__container">
+      <NuxtLink class="button" to="/contact">Me contacter</NuxtLink>
+    </div>
   </main>
 </template>
 <script>
 import Icon from '@/components/Icon'
-
 export default {
   name: 'IndexMain',
   components: { Icon },
 
-  async asyncData ({ $prismic, error }) {
+  async asyncData ({ $prismic, params, error }) {
     const document = await $prismic.api.getSingle('hompage')
     const projects = await $prismic.api.query(
       $prismic.predicates.at('document.type', 'project')

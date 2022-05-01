@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
 %font {
-  color: var(--color);
   font-family: 'Outfit', sans-serif;
   font-size: clamp( var(--minFontSize), var(--scaler), var(--maxFontSize) );
 }
 %navigation__label {
   @extend %font;
   font-weight: 500;
+  color: var(--color);
 }
 
 %title {
   @extend %font;
+  color: var(--color);
   --minFontSize: 36px;
   --maxFontSize: 96px;
   --scaler: 10vw;
@@ -20,6 +21,7 @@
 }
 %title--headline {
   @extend %font;
+  color: var(--color);
   --minFontSize: 16px;
   --maxFontSize: 24px;
   --scaler: 4vw;
@@ -29,6 +31,7 @@
 }
 %section--title {
   @extend %font;
+  color: var(--color);
   --minFontSize: 24px;
   --maxFontSize: 64px;
   --scaler: 3vw;
@@ -38,6 +41,7 @@
 }
 %section--headline {
   @extend %font;
+  color: var(--color);
   --minFontSize: 16px;
   --maxFontSize: 24px;
   --scaler: 3vw;
@@ -46,6 +50,7 @@
 }
 %block__title {
   @extend %font;
+  color: var(--color);
   --minFontSize: 16px;
   --maxFontSize: 24px;
   --scaler: 4vw;
@@ -55,20 +60,19 @@
 }
 %content {
   @extend %font;
-
+  color: var(--color);
   font-weight: 400;
   line-height: 22px;
 }
 %external__link--title {
   @extend %font;
-
+  color: var(--color);
   text-transform: uppercase;
   text-decoration: underline;
   font-weight: 500;
 }
 %internal__link--title{
   @extend %font;
-
   --minFontSize: 16px;
   --maxFontSize: 24px;
   --scaler: 4vw;
@@ -77,6 +81,7 @@
 }
 %email__label{
   @extend %font;
+  color: var(--color);
   --minFontSize: 32px;
   --maxFontSize: 96px;
   --scaler: 6vw;

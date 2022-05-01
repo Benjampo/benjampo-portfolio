@@ -25,10 +25,6 @@
             </li>
           </ul>
         </nav>
-        <ul>
-          <li>French</li>
-          <li>English</li>
-        </ul>
       </div>
     </div>
   </Header>

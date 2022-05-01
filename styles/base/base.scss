@@ -57,3 +57,19 @@ img {
 .wrapper {
   @extend %wrapper;
 }
+.button__container {
+  width: 100%;
+  padding: 10px 15px;
+  text-align: center;
+  margin: 15vh 0;
+  a {
+    @extend %internal__link--title;
+    text-decoration: none;
+    border-radius: 25px;
+    background: var(--color);
+    color:var(--bg) ;
+    padding: 10px 25px;
+
+    text-align: center;
+  }
+}
