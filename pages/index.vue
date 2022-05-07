@@ -76,7 +76,8 @@ export default {
   },
   mounted () {
     const gsap = this.$gsap
-    gsap.from('.icon', { scale: 0, stagger: 0.05, ease: 'power2.easeOut' })
+    gsap.from('.icon', { scale: 0, stagger: 1, ease: 'power2.easeOut' })
+    gsap.from('.headline__content', { transform: 'translateY(10%)', stagger: 1, opacity: 0, ease: 'power2.easeOut' })
   }
 
 }
